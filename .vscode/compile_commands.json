@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/yagopop/dev/cpp/julia-sfml",
+  "arguments": ["/usr/bin/g++", "-c", "-m64", "-g", "-O0", "-isystem", "/home/yagopop/.xmake/packages/c/cimg/v3.7.4/99a7ab70f8d1411c8f8f8dfdbf6abeba/include", "-o", "build/.objs/julia-sfml/linux/x86_64/debug/src/julia-sfml.cpp.o", "src/julia-sfml.cpp"],
+  "file": "src/julia-sfml.cpp"
+}]
