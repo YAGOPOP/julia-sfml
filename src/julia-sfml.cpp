@@ -1,6 +1,9 @@
 #include <cmath>
 
-#define cimg_display 3
+#ifdef __linux__
+    #define cimg_display 3
+#endif
+
 #include <CImg.h>
 
 #define WIDTH 800

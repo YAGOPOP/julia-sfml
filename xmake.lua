@@ -1,11 +1,16 @@
 add_rules("mode.debug", "mode.release")
-add_requires("cimg", "sdl3")
+add_requires("cimg")
+
+if is_plat("linux") then
+    add_requires("sdl3")
+end
 
 target("julia-sfml")
     set_kind("binary")
     add_files("src/*.cpp")
-    add_packages("cimg", "sdl3")
+    add_packages("cimg")
     if is_plat("linux") then
+        add_packages("sdl3")
         add_syslinks("pthread")
     end 
 --
