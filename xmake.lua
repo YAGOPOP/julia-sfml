@@ -8,6 +8,7 @@ end
 target("julia-sfml")
     set_kind("binary")
     add_files("src/*.cpp")
+    set_languages("c++23")
     add_packages("cimg")
     if is_plat("linux") then
         add_packages("sdl3")
