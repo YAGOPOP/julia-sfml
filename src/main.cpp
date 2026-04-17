@@ -1,4 +1,5 @@
 #include <cmath>
+#include <numbers>
 
 #ifdef __linux__
 #define cimg_display 3
